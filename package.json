@@ -43,6 +43,7 @@
     "build-storybook": "build-storybook",
     "dev": "webpack serve",
     "build": "webpack",
-    "chromatic": "npx chromatic --project-token=7c1e5ca86806"
+    "chromatic": "npx chromatic --project-token=7c1e5ca86806",
+    "chromatic-force-revuild": "chromatic --project-token=7c1e5ca86806 --force-rebuild"
   }
 }
