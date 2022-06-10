@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  overflow: hidden;
+  transition: max-height .5s ease;
+  height: auto;
+}
+
+.item {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border: solid gray 1px;
+}
+
+.collapsed {
+  max-height: 0;
+}
+
+.expand {
+  max-height: 500px;
+}
+
+.container-scale {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  width: fit-content;
+  overflow: hidden;
+}
